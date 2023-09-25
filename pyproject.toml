@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "organize-project"
+version = "0.1.0"
+description = "Teste de organização de projeto."
+authors = ["Thiago Serra <thiagosaldanhaserra@gmail.com>"]
+readme = "README.md"
+packages = [{include = "organize_project"}]
+
+[tool.poetry.dependencies]
+python = "^3.11.5"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
